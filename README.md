@@ -4,7 +4,7 @@
   <br>
   <img src="https://i.imgur.com/VwbFOrL.png" alt="Markdownify" width="200">
   <br>
-  RapidAlert
+  Rapid Response
   <br>
 </h1>
 
