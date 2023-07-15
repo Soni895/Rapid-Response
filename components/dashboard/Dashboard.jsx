@@ -95,7 +95,8 @@ useEffect(() => {
 
             <div className="relative flex gap-4 items-center justify-end w-1/4 p-1 ml-5 mr-4 sm:mr-0 sm:right-auto">
               {user ? (
-                <button
+                <Link href="/">
+   <button
                   className="inline-flex justify-end items-center px-4 py-2  bg-blue-100 shadow-sm hover:bg-red-200 hover:text-red-600 text-blue-600 text-sm  font-medium font-sans rounded-md"
                   onClick={() => {
                     logout();
@@ -103,6 +104,9 @@ useEffect(() => {
                 >
                   Logout
                 </button>
+                </Link>
+           
+
               ) : (
                 <>
                   <Link href="/signup" passHref>
