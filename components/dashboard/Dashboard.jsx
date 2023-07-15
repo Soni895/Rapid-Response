@@ -89,7 +89,7 @@ useEffect(() => {
             <div className="container relative left-0 z-50 flex w-3/4 h-full">
               <Link href="/">
                 {" "}
-                <img src="/logof.png" alt="logo" className="w-48 mt-2 " />
+                <img src="/logow.png" alt="logo" className="w-20 " />
               </Link>
             </div>
 
