@@ -20,7 +20,7 @@ export default function Sidebar() {
     <div className="flex flex-row sm:flex-col  gap-y-4 items-center py-2 sm:py-8 w-full sm:w-24 bg-gray-900">
       <button className="p-2 bg-opacity-20 rounded-xl bg-primary">
         <Link href="/">
-          <img src="/logo-icon.png" className="w-20 sm:w-full"/>
+          <img src="/logow.png" className="w-20 sm:w-full"/>
         </Link>
       </button>
       <div className="flex flex-row sm:flex-col gap-y-4 items-end self-end">

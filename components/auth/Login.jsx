@@ -71,9 +71,9 @@ export default function Login() {
 
   return (
     <>
-      <section class="bg-white">
+      <section class="bg-slate-500">
         <div class="grid h-screen grid-cols-1 lg:grid-cols-2">
-          <div class="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 lg:px-8">
+          <div class="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-500 sm:px-6 lg:px-8">
             <div class="absolute inset-0">
               <img
                 class="object-cover w-full h-full"
@@ -86,10 +86,10 @@ export default function Login() {
             <div class="relative"></div>
           </div>
 
-          <div class="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
+          <div class="flex items-center justify-center px-4 py-10  bg-gray-500 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
             <div class="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-              <h2 class="text-3xl font-bold font-body leading-tight text-black sm:text-4xl p-4">
-                Welcome to <img src="/logof.png" className="h-12 mt-3"/>{" "}
+              <h2 class="text-3xl font-bold font-body leading-tight text-black sm:text-[28]  p-4">
+                <span className="text-4xl">W</span>elcome to Rapid Response
               </h2>
               <Toaster toastOptions={{ duration: 4000 }} />
               <div id="recaptcha-container"></div>
@@ -164,7 +164,7 @@ export default function Login() {
                               id=""
                               defaultValue="+91 "
                               placeholder=" Enter your number"
-                              class="block w-full py-4 pl-10 pr-7 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                              class="block w-full py-4 pl-10 pr-7 text-black placeholder-black transition-all duration-200 border border-gray-200 rounded-lg bg-gray-500 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                             />
                           </div>
                         </div>
@@ -178,7 +178,7 @@ export default function Login() {
                             {loading && (
                                 <Loader />
                             )}
-                            {!loading && "Send OTP"}
+                            {!loading && "Sign In"}
                           </button>
                         </div>
                       </div>
