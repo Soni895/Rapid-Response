@@ -29,13 +29,17 @@ const handleClick = async () => {
     console.log("function start")
  
     // Get a reference to the "DC" document in the "cities" collection
-    const washingtonRef = doc(database, "fire", id);
+    // const washingtonRef = doc(database, "fire", id);
 
     // Set the "capital" field of the "DC" document to true
-    await updateDoc(washingtonRef, {
-      status: "DONE"
-    });
+    // await updateDoc(washingtonRef, {
+    //   status: "DONE"
+    // });
 
+    // updateDoc(washingtonRef, {
+    //     status: "DONE"
+    //   });
+  
     window.location.reload(false);
 
   }
