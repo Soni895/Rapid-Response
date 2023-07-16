@@ -13,16 +13,14 @@
 
 ## About
 
-This project was created for HackVerse 2023 by Team 520 . 
+This project was created for Soft CodeHack 1.0 2023 
 ## Team Members:
 
-- [Anand](https://github.com/zodwick)
-- [Jeff Prakash](https://github.com/jeffprakash)
-- [Muhammed Jamal](https://github.com/jamaljm)
-
+- [Darhan Soni](https://github.com/Soni895)
+- [Kartik Goel](https://github.com/kartik01112004)
 
 <p align="center">
-  <a href="#problem-rapidalert-solves">Problem Statement</a> •
+  <a href="#problem-rapidresponses-solves">Problem Statement</a> •
    <a href="#solution">Solution</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
@@ -32,7 +30,7 @@ This project was created for HackVerse 2023 by Team 520 .
 
 
 
-## Problem RapidAlert Solves
+## Problem Rapid Responses Solves
 Inefficiencies and inabilities of our current system to effectively report, handle and communicate in times  of emergencies 
 
 * No quick and easy way for reporting
@@ -77,7 +75,7 @@ We have also done two automated emergency reporting mechanisms :
   
   
    <br>
-  <img src="https://i.imgur.com/VqZsBaL.png" alt="Screenshot" width="full">
+  <img src="[https://i.imgur.com/VqZsBaL.png](https://drive.google.com/file/d/1C6G4TqdQBPe2hZ1nLC9GWbGh6THQAHRi/view?usp=drive_link)" alt="Screenshot" width="full">
   <br>
   
 
@@ -91,16 +89,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/jamaljm/RapidAlert
+$ git clone https://github.com/Soni895/Rapid-Response
 
 # Go into the repository
-$ cd RapidAlert
+$ cd Rapid Response
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
 
