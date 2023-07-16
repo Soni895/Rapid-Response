@@ -58,7 +58,7 @@ We have also done two automated emergency reporting mechanisms :
 
  
    <br>
-   <img src="https://i.imgur.com/nFPWkAf.png" alt="Screenshot" width="full">
+   <img src="[https://i.imgur.com/nFPWkAf.png](https://drive.google.com/file/d/1rq3qWvCJw8F54dimpip-9Y8som9xRDah/view?usp=drive_link)" alt="Screenshot" width="full">
    <br>
       <br>
   <img src="https://i.imgur.com/mYhwszG.png" alt="Fire Detector" width="full">
